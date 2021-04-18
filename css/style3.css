@@ -43,3 +43,14 @@ p{
 h2{
       margin-bottom:10px
 }
+.profile-color-modes-toggle-thumb {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--color-profile-color-modes-toggle-thumb-bg);
+    transition: transform .3s cubic-bezier(.4,.03,0,1);
+    cursor: pointer;
+}
